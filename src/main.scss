@@ -1,0 +1,10 @@
+@use './base/base';
+
+// components
+@use './components/header';
+@use './components/footer';
+@use './components/menu';
+@use './components/rightcolumn';
+
+// pages
+@use './pages/home';
