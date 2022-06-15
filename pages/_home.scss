@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    background: grey;
+    height: calc(100vh - 200px - 150px - 4rem );
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px){
+    main {
+        background: red;
+        flex-direction: column;
+    }
+}

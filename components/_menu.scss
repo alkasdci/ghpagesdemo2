@@ -1,0 +1,23 @@
+@use '../abstract/variables' as v;
+
+.menu {
+    width: 200px;
+    
+    li {
+        background: v.$primary-color;
+        margin: 5px;
+        height: 40px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .menu {
+        width: 100%;
+
+        li {
+            margin: 5px 0;
+        }
+    }
+}
