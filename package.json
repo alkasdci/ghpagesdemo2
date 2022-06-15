@@ -6,8 +6,7 @@
   "homepage": "https://alkasdci.github.io",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d .",
-    "publish": "npm run build"
+    "deploy": "gh-pages -d ."
   },
   "keywords": [],
   "author": "",
